@@ -1,0 +1,36 @@
+{
+  "name": "Quran",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^22.4.4",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-native": "~0.55.2",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-dropdown-menu": "^2.0.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-menu": "^0.23.0",
+    "react-native-modal-datetime-picker": "^5.1.0",
+    "react-native-navigation": "^1.1.473",
+    "react-native-splash-screen": "^3.0.9",
+    "react-native-timepicker": "^1.0.3",
+    "react-native-ui-xg": "0.0.6",
+    "react-native-vector-icons": "^4.6.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
